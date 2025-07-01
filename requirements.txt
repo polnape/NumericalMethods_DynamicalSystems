@@ -1,0 +1,6 @@
+# Minimal requirements for running Python scripts from the assignments
+
+numpy
+scipy
+matplotlib
+tqdm
