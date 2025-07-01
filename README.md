@@ -1,6 +1,8 @@
 # Numerical Methods for Dynamical Systems
 
-This project contains a collection of simulations and numerical analyses completed during the course *Numerical Methods for Dynamical Systems*. It explores a variety of nonlinear systems and mathematical models using Python.
+This repository contains a collection of simulations and numerical analyses carried out as part of the Master's course *Numerical Methods for Dynamical Systems*. It explores a variety of nonlinear dynamical systems and mathematical models, originally implemented in Python and later continued in MATLAB for improved efficiency in prototyping and visualization.
+
+> **Note**: The code is not designed to be executed or reproduced directly. Instead, the aim is to provide a clear overview of how each problem was approached and solved computationally. The scripts are meant to illustrate the numerical methods applied and offer intuitive insight into the modeling strategies used.
 
 ## 🔍 Topics Covered
 
@@ -13,16 +15,23 @@ This project contains a collection of simulations and numerical analyses complet
 - **Manifold Parametrization**: Graph and normal form expansion.
 - **Restricted Three-Body Problem**: Homoclinic orbits via parameter tuning.
 
-## 🛠 Technologies
+## 🛠 Technologies Used
 
-- Python 3.9+
-- `numpy`
-- `matplotlib`
-- `scipy`
-- `pandas` (optional)
+- Python 3.9+  
+  - `numpy`  
+  - `scipy`  
+  - `matplotlib`  
+  - `tqdm`  
+  - `pandas` *(used occasionally)*
 
-To install dependencies:
+- MATLAB R2023a+  
+  - Core syntax and plotting tools, with no additional toolboxes required
+
+### Installation (for Python scripts)
+
+To install the minimal dependencies for viewing or running the Python scripts:
 
 ```bash
 pip install -r requirements.txt
+
 
